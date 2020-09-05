@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background: url("https://wallpaperaccess.com/full/945603.jpg");
+    background-size: 100% 100%;
+    font-family: 'Architects Daughter', cursive;
+}
+
+div {
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+img {
+    width: 30%;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2,
+h3 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 5px red;
+}
+
+h3:hover {
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    0% {
+        color: gold;
+    }
+
+    50% {
+        color: crimson;
+        font-size: 3em;
+    }
+
+    100% {
+        color: gold;
+    }
+}
